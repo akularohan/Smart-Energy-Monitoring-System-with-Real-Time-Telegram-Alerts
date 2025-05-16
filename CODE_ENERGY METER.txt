@@ -17,14 +17,13 @@ float kWh = 0;
 unsigned long lastmillis = millis();
 
 // Network credentials
-const char* ssid = "dell";
-const char* password = "12345678";
+const char* ssid = "xxxx";
+const char* password = "xxxxxxxx";
 
 // Initialize Telegram BOT Token and Chat ID
-#define BOTtoken "5982198371:AAEL3cD2U6IyORf9zlOD_sl5-X85MXyhKbc"  
-
-// #define CHAT_ID "969506549"
-#define CHAT_ID "5728415681"
+#define BOTtoken "5xxxxxxx198371xxxxxxxxxxxxxx"
+// #define CHAT_ID "xxxxxxxx"
+#define CHAT_ID "xxxxxxx"
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
