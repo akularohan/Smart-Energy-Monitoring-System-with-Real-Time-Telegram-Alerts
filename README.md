@@ -36,7 +36,7 @@ energy conservation, and facilitate data-driven decision-making for users.
 - 16x2 LCD Display (with I2C module)
 - Resistors, connecting wires, breadboard
 
-## 🛠️ Software & Libraries Used
+## Software & Libraries Used
 
 - Arduino IDE
 - `LiquidCrystal_I2C.h` – for LCD
@@ -44,7 +44,7 @@ energy conservation, and facilitate data-driven decision-making for users.
 - `UniversalTelegramBot.h` – Telegram Bot API
 - `EmonLib.h` – Energy Monitoring Library
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone this repo
 2. Install required libraries in Arduino IDE
@@ -53,7 +53,7 @@ energy conservation, and facilitate data-driven decision-making for users.
 5. Upload to ESP32 and monitor the Serial output
 6. Start receiving real-time updates on your Telegram app
 
-## 📈 Future Scope
+## Future Scope
 
 - Firebase integration for data logging
 - Energy usage prediction with ML models
