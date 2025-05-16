@@ -15,7 +15,7 @@ energy conservation, and facilitate data-driven decision-making for users.
 
 ![Screenshot 2025-05-16 105801](https://github.com/user-attachments/assets/618e80c6-74d9-4b61-9c2e-02a83dd9701e)
 
-## TELEGRAM ALERTS
+## Telegram Alerts
 ![Screenshot 2025-05-16 110626](https://github.com/user-attachments/assets/5c50fde3-6554-4c98-a54e-6e416a422ad9)
 
 ## Block Digaram
@@ -43,4 +43,20 @@ energy conservation, and facilitate data-driven decision-making for users.
 - `WiFi.h` – ESP32 Wi-Fi connection
 - `UniversalTelegramBot.h` – Telegram Bot API
 - `EmonLib.h` – Energy Monitoring Library
+
+## 🚀 How to Run
+
+1. Clone this repo
+2. Install required libraries in Arduino IDE
+3. Open the `.ino` file
+4. Enter your Wi-Fi credentials and Telegram bot token
+5. Upload to ESP32 and monitor the Serial output
+6. Start receiving real-time updates on your Telegram app
+
+## 📈 Future Scope
+
+- Firebase integration for data logging
+- Energy usage prediction with ML models
+- Web dashboard for historical data trends
+- Relay module to auto-cut power on overload
 
